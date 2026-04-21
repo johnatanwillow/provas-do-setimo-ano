@@ -1,0 +1,265 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prova de Inglês - Turma do 7º Ano</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px auto;
+                max-width: 800px;
+                line-height: 1.6;
+                font-size: 20px; 
+                background-color: #f9f9f9;
+                color: #333;
+            }
+            .cabecalho {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                margin-bottom: 30px;
+            }
+            .questao {
+                background-color: #fff;
+                margin-bottom: 30px;
+                padding: 25px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .enunciado {
+                font-weight: bold;
+                margin-bottom: 15px;
+                white-space: pre-wrap; 
+            }
+            .imagem-questao {
+                width: 100%;
+                max-width: 500px;
+                display: block;
+                margin: 20px auto;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .alternativa-label {
+                display: block;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                padding: 10px 15px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            .alternativa-label:hover {
+                background-color: #e2e2e2;
+            }
+            input[type="radio"] {
+                margin-right: 15px;
+                transform: scale(1.5);
+            }
+            .btn-enviar {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                background-color: #4CAF50;
+                color: white;
+                font-size: 22px;
+                font-weight: bold;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-bottom: 20px;
+            }
+            .btn-enviar:hover {
+                background-color: #45a049;
+            }
+            .mensagem-final {
+                display: none;
+                padding: 20px;
+                background-color: #e7f3fe;
+                border-left: 6px solid #2196F3;
+                margin-bottom: 50px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cabecalho">
+            <h1 style="text-align: center; color: #2c3e50;">Atividade Avaliativa de Língua Inglesa</h1>
+            <p><strong>Estudante:</strong> Turma do 7º Ano</p>
+            <p><strong>Série:</strong> 7º ANO</p>
+            <p><strong>Professor:</strong> Johnatan Willow</p>
+            <p><strong>Instrução:</strong> Selecione o texto para traduzir no VLibras. Marque a resposta certa em cada questão e clique em "Finalizar Prova" no final.</p>
+        </div>
+        
+        <form id="provaForm">
+            <div class='questao'>
+            <div class='enunciado'>1. A adequação da linguagem (formal ou informal) é essencial para garantirmos uma boa comunicação. Marcos esbarrou acidentalmente no diretor da escola, o Sr. Harris. Qual das alternativas apresenta a interação mais adequada para Marcos pedir desculpas e cumprimentá-lo de forma formal?</div>
+            <img src='diretor_marcos.png' alt='Imagem da questão 1' class='imagem-questao'>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q1' value='A'> A) "Hey man! What's up? My bad!"
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q1' value='B'> B) "Hi! How are you? Watch out!"
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q1' value='C'> C) "Excuse me, sir. Good morning."
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q1' value='D'> D) "You're welcome, dude. See ya!"
+            </label>
+        </div>
+        <div class='questao'>
+            <div class='enunciado'>2. Julia e Sarah são melhores amigas. Sarah chega na casa de Julia para passarem a tarde assistindo a filmes. Qual das alternativas apresenta o diálogo mais adequado para essa situação de intimidade entre amigos?</div>
+            <img src='amigas_abraço.png' alt='Imagem da questão 2' class='imagem-questao'>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q2' value='A'> A) Sarah: "Good afternoon, Mrs. Julia. It is a pleasure to see you again."
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q2' value='B'> B) Sarah: "Hey, girl! What's up? Ready for the movie marathon?"
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q2' value='C'> C) Sarah: "Excuse me, madam. Could I enter your residence, please?"
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q2' value='D'> D) Sarah: "How do you do? I am fine, and I hope you are fine too."
+            </label>
+        </div>
+        <div class='questao'>
+            <div class='enunciado'>3. Palavras cognatas são aquelas que se parecem muito com o português na escrita e têm o mesmo significado. Qual das palavras abaixo NÃO é um cognato?</div>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q3' value='A'> A) Hospital.
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q3' value='B'> B) Television.
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q3' value='C'> C) Music.
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q3' value='D'> D) Apple.
+            </label>
+        </div>
+        <div class='questao'>
+            <div class='enunciado'>4. Read the sentence: "Yesterday, Peter ________ soccer with his friends, but today he is very tired." Para indicar o fato de que Peter "jogou" futebol ontem, qual verbo regular no passado (past simple) completa a frase corretamente?</div>
+            <img src='peter_futebol.png' alt='Imagem da questão 4' class='imagem-questao'>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q4' value='A'> A) play
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q4' value='B'> B) played
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q4' value='C'> C) plays
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q4' value='D'> D) playing
+            </label>
+        </div>
+        <div class='questao'>
+            <div class='enunciado'>5. O influencer diz para a câmera: "I want to play Minecraft, ________ I have to do my homework first." Qual palavra de ligação (linking word) completa essa frase dando a ideia correta de contraste (oposição) entre querer jogar e ter que estudar?</div>
+            <img src='minecraft_estudo.png' alt='Imagem da questão 5' class='imagem-questao'>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q5' value='A'> A) and
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q5' value='B'> B) because
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q5' value='C'> C) but
+            </label>
+            
+            <label class='alternativa-label'>
+                <input type='radio' name='q5' value='D'> D) so
+            </label>
+        </div>
+
+            <button type="button" class="btn-enviar" id="btnEnviar" onclick="finalizarProva()">Finalizar Prova</button>
+            <div id="mensagemFinal" class="mensagem-final"></div>
+        </form>
+
+        <script>
+            const gabarito = {"q1": "C", "q2": "B", "q3": "D", "q4": "B", "q5": "C"};
+            const nomeEstudante = "Turma do 7º Ano";
+
+            function finalizarProva() {
+                let acertos = 0;
+                let total = Object.keys(gabarito).length;
+                let todasRespondidas = true;
+
+                for (let i = 1; i <= total; i++) {
+                    let qName = "q" + i;
+                    let selecionada = document.querySelector('input[name="' + qName + '"]:checked');
+                    
+                    if (!selecionada) {
+                        todasRespondidas = false;
+                        break;
+                    }
+
+                    let respAluno = selecionada.value;
+                    let respCorreta = gabarito[qName];
+
+                    if (respAluno === respCorreta) {
+                        acertos++;
+                    }
+                }
+
+                if (!todasRespondidas) {
+                    alert("Atenção! Você precisa responder todas as questões antes de finalizar.");
+                    return;
+                }
+
+                alert("Prova finalizada!\nVocê acertou " + acertos + " de " + total + " questões.\nPor favor, passe suas respostas para a folha de papel.");
+
+                let radios = document.querySelectorAll('input[type="radio"]');
+                radios.forEach(radio => {
+                    radio.disabled = true;
+                });
+
+                let btn = document.getElementById('btnEnviar');
+                btn.disabled = true;
+                btn.style.backgroundColor = "#cccccc";
+                btn.style.cursor = "not-allowed";
+
+                let msgDiv = document.getElementById('mensagemFinal');
+                msgDiv.style.display = "block";
+                msgDiv.innerHTML = "<h2>Prova Finalizada!</h2>" +
+                                   "<p>Você acertou <strong>" + acertos + "</strong> de <strong>" + total + "</strong> questões.</p>" +
+                                   "<p style='color: #d9534f; font-weight: bold;'>Por favor, marque as suas opções na folha de papel e entregue ao professor Johnatan Willow.</p>";
+            }
+        </script>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        </body>
+    </html>
+    
